@@ -1,0 +1,286 @@
+
+/*---------------------------General------------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+h1 , h2 , h3{
+    color: hsl(210, 10%, 33%);
+}
+
+h1{
+    font-size: 33pt;
+    margin: 7.77% 0px 20px 0px;
+}
+h2{
+    font-size: 27pt;
+    margin-bottom:  3.33%;
+}
+h3{
+    font-size: 18pt;
+    margin: 10px 0px;
+}
+
+p {
+    font-size: 14pt;
+    color:hsl(201, 11%, 66%);
+    margin-bottom: 5%;
+}
+
+.coninar50{
+    margin: 10% auto 0;
+    width: 50%;
+    text-align: center;
+}
+/*----------------------------header------------------------------*/
+#backgroundHedar{
+    background-image: url(../media/bg-header-desktop.png);
+    height: 600px;
+    background-repeat:repeat-x;
+    text-align: center;
+}
+
+#logo{
+    margin-top: 130px;
+}
+
+.TextContainer{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.TextContainer p{
+    margin-bottom: 7.77%; 
+}
+#iosButton{
+    padding: 15px 38px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 50px;
+    color: white;
+    border-bottom:5px solid #239e89;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+#iosButton:hover{
+    box-shadow: 0px 11px 23px 7px rgba(38, 186, 164,0.7);
+}
+
+#macButton{
+    padding: 15px 35px;
+    background-color:hsl(233, 100%, 69%);
+    border-radius: 50px;
+    color: white;
+    border-bottom:5px solid #5261d8;
+    transition: 0.5s ease-in-out;
+}
+
+#macButton:hover{
+    box-shadow: 0px 11px 23px 7px rgba(97,115,255,0.7);
+}
+
+/*----------------------------Section2--computerPhoto----------------------------*/
+#computerPhoto div{
+    width: 40%;
+    position: relative;
+    left: -2.22%;
+}
+
+#computerPhoto .right{
+    margin-top: 5%;
+}
+/*----------------------------Section4--devices----------------------------*/
+.centerSection{
+    text-align: center;
+    margin-top: 7%;
+}
+
+#cardContinar{
+    width: 80%;
+    margin: 7% auto;
+    text-align: center;
+}
+
+#card{
+    width: 30%;
+    margin-left: 10px;
+}
+
+#card img{
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+#Companies img{
+    margin-top: 50px;
+    margin-left: 6.6%;
+}
+
+#lastSection{
+    margin-top: 8%;
+}
+
+#lastSection p{
+    width: fit-content;
+    margin: 4% auto;
+}
+/*---------------------------footer---------------------------*/
+footer{
+    background-color: #f5f6f8;
+    height: fit-content;
+    min-height: 150px;
+    padding-left: 11%;
+}
+
+footer .left , footer .right{
+    margin: 50px;
+    margin-top: 44px;
+}
+
+footer a{
+    color:hsl(210, 10%, 33%);
+}
+
+footer p img{
+    margin: 8px;
+    cursor: pointer;
+}
+
+.footerLogo{
+    width: 55px;
+    height: 55px;
+}
+
+@media (max-width: 500px) {
+    h1{font-size: 22pt;}
+    h2{font-size: 18pt;}
+    h3{font-size: 14pt;}
+    p{font-size: 11pt;}
+   *{
+       display: inline-block;
+    }
+    
+    body{
+        width: 100%;
+    }
+   .left{
+        float: none;
+    }
+
+    .right{
+        float:none;
+    }
+
+    section , footer , header{
+        display: block;
+        margin: 10% auto;
+        padding: 0;
+    }
+
+    header{
+        height: fit-content;
+        margin-top: -15px;
+    }
+
+   #backgroundHedar{
+        background-image: url(../media/bg-header-mobile.png);
+        height: fit-content;
+    }
+
+   #logo{
+        margin: 130px auto 0px;
+        display: block;
+    } 
+    #card img{
+        margin: 25px auto;
+        display: block;
+    }
+    #computerPhoto{
+        width: 80%;
+        margin: 0 auto;
+        position:static;
+        left: 0px;
+
+    }
+
+    #computerPhoto div{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 0;
+    }
+    
+    .minimize , #cardContinar{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .centerSection{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #cardContinar div{
+        width: 80%;
+        text-align: center;
+    }
+
+    #iosButton{
+        margin: 4% 0;
+    }
+    #lastSection p{
+        text-align: center;
+    }
+    footer{
+        margin-bottom: -20px;
+    }
+    footer p{
+        display: block;
+        margin: 20 auto;
+        width: 100%;
+        text-align: center;
+    }
+    .footerLogo{
+        width: 55px;
+        height: 55px;
+        padding-top: 25px;
+    }
+
+    footer .left , footer .right{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .TextContainer , .coninar50{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
